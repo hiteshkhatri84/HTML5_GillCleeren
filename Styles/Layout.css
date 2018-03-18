@@ -1,0 +1,167 @@
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana;
+}
+
+header {
+    font-weight: bold
+}
+
+.headerlogo {
+    float: left;
+    margin-right: 10px;
+}
+
+    .headerlogo > img {
+        height: 40px;
+        width: 40px;
+    }
+
+#mainHeader {
+    height: 80px;
+}
+.searchbox {
+    float: right;
+    padding: 5px ;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+#headername {
+    font-size: 40px;
+    color: #603813;
+    padding: 15px;
+    margin: 8px;
+    font-weight: bold; 
+}
+
+#welcomeimage {
+    float: left;
+    width: 700px;
+}
+
+#coffeeofthemonth {
+    float: right;
+    width: 200px;
+}
+
+#welcometext {
+    float: left;
+    width: 70%;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#welcometext > header {
+    color: #603813;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+#events {
+    float: right;
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    #events > header {
+        margin-left: 10px;
+        color: #603813;
+        font-size: 15px;
+        margin-bottom: 3px;
+        font-weight: bold;
+    }
+    #events > ul {
+        list-style: none;
+    }
+
+    #events > ul > li {
+        margin-bottom: 3px;
+    }
+
+#bestsellers {
+    height: 100%;
+    width: 700px;
+    float: left;
+    margin-bottom: 20px;
+}
+    #bestsellers > header {
+        color: #603813;
+        font-size: 15px;
+        font-weight: bold;
+    }
+.coffeebestsellers {
+        float: left;
+    }
+    
+    .coffeebestsellers > header {
+        height: 30px;
+        line-height: 30px;
+        background-color: #603813;
+        color: white;
+        padding-left: 10px;
+        }
+.accessoriesbestsellers {
+    clear: both;
+    }
+        
+    .accessoriesbestsellers > header {
+        height: 30px;
+        line-height: 30px;
+        background-color: #603813;
+        color: white;
+        padding-left: 10px;
+        }        
+.productarticle {
+    width: 200px;
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.productarticlethumbnail {
+    width: 100px;
+    height: 150px;
+}
+
+.productarticlename {
+    font-size: 15px;
+    color: #603813;
+    font-weight: bold;
+}
+
+.productarticleprice {
+    font-size: 15px;
+    color: green;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+.productarticlemoreinfo {
+    font-size: 12px;
+    color: #603813;
+    margin-top: 5px;
+}
+footer {
+    clear: both;
+    width: 100%;
+    background-color: #5c5045;
+    margin: 20px 0px 20px;
+    padding: 5px;
+}
+
+.smalltext {
+    font-size: 10px;
+}
+
+.blockheader {
+    font-size: 30px;
+    font-family: headerfont;
+    margin-top: 20px;
+}
+
